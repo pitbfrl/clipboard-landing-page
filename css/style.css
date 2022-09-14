@@ -4,6 +4,13 @@ body {
     background: white;
     height: 5280px;
 }
+image {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 .color {
     width: 200px;
     height: 200px;
@@ -12,22 +19,12 @@ body {
 .mobile-bg {
     width: 100%;
     height: auto;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 .logo {
     display: flex;
     margin: auto;
     position: relative;
     bottom: 13em;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 .title {
     font-size: 35px;
@@ -97,11 +94,6 @@ body {
 .computer-img {
     width: 85%;
     margin-top: 10%;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 .titles {
     font-size: 30px;
@@ -142,11 +134,6 @@ body {
 .devices-img {
     width: 95%;
     margin-top: 20%;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 .title-4 {
     font-size: 35px;
@@ -228,11 +215,6 @@ i {
 }
 .company-images {
     margin-bottom: 20%;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 #google {
     margin-top: 30%;
@@ -300,11 +282,6 @@ i {
     position: relative;
     top: 5em;
     width: 20%;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 a {
     color: hsl(210, 10%, 33%);
@@ -324,11 +301,6 @@ a {
     gap: 50px;
     position: relative;
     bottom: 60px;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 conteneur-main {
     display: flex;

@@ -478,4 +478,7 @@ button-cont {
 body {
     height: auto;
 }
+button:hover {
+    cursor: pointer;
+}
   }

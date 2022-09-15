@@ -11,6 +11,13 @@ image {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+i {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 .color {
     width: 200px;
     height: 200px;
